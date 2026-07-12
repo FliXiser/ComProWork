@@ -7,8 +7,8 @@ int main(){
     cout << "n = " << n << endl;
     cout << "n >> 1 = " << (n >> 1) << endl;
     cout << "n << 1 = " << (n << 1) << endl;
-    cout << "n && 8 = " << (n & 8) << endl;
-    cout << "n || 8 = " << (n | 8) << endl;
+    cout << "n & 8 = " << (n & 8) << endl;
+    cout << "n | 8 = " << (n | 8) << endl;
     cout << "n ^  8 = " << (n ^ 8) << endl;
     return 0;
 }
