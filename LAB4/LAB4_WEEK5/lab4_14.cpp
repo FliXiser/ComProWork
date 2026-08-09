@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
     char ch;
-    int count;
+    int count = 0;
     string str;
     cout << "Enter String : ";
     while ((ch=cin.get())!= '\n'){

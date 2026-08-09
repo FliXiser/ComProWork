@@ -4,7 +4,7 @@ int main(){
     int ListSize = 5;
     int valuesprocessed = 0;
     float valuesum = 0;
-    cout << "Please enter " << ListSize << "numbers" << endl ;
+    cout << "Please enter " << ListSize << " numbers" << endl ;
     while(valuesprocessed < ListSize){
         float value ;
         cin >> value ;
