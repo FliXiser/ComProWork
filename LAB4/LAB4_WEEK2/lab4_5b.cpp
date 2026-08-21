@@ -4,7 +4,7 @@ using namespace std;
 void fn1();
 void fn2();
 void fn3();
-void fn4(int);
+int fn4();
 
 int main(){
     fn1();
@@ -29,7 +29,7 @@ void fn1(){
 // ++ ค่าเกิดขึ้นหลังจากจบ loop
 void fn2(){
     int n;
-    for (int n = 0 ; n <= 20 ; n++){
+    for ( n = 0 ; n <= 20 ; n++){
         cout << n << " ";
     }
     cout << n << " ";
@@ -41,7 +41,7 @@ void fn3(){
 }
 
 int fn4(){
-    int sum;
+    int sum = 0;
     for (int n = 10 ; n >= 1 ; n--){
     cout << n << " ";
     sum = sum + n;
