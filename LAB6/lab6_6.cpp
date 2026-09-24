@@ -6,9 +6,10 @@ int main(){
 
     int Sum = 0;
     for (int i = 0; i < Array_Size; i++){
-    Sum = Sum +A[i];
-    cout << "Total of Array elements : " << Sum << endl;
+        Sum = Sum + A[i];
+        cout << "Total of Array elements : " << Sum << endl;
+
     }
-    
-    return 0;
+        cout << "Total of Array elements : " << Sum << endl;
+        return 0;
 }
